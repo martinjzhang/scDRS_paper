@@ -130,3 +130,4 @@ Make figures:
 ## Hepatocyte example (Fig. 5CD): `job.case_hepatocyte`
 - Reprocess TMS hepatocytes: `job.case_hepatocyte/s1_reprocess_tms_hep.ipynb`
 - Main analysis: `job.case_hepatocyte/s3_analysis_hep.ipynb`
+- Main analysis (rv1): `job.case_hepatocyte/s3_analysis_hep.rv1.ipynb`
