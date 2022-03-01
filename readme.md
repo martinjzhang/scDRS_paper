@@ -1,3 +1,7 @@
+# Versions
+- Current version: revision 1 (rv1). 
+- Initial submission: see [readme.md](https://github.com/martinjzhang/scDRS_paper/blob/master/readme_initial_sub.md) file.
+
 # Subset of code and data to reproduce main results of the paper
 
 Download the main data [scDRS_data_release_092121](https://figshare.com/articles/dataset/scDRS_data_release_092121/16664080) (3.6 GB) and scDRS score files for TMS FACS + 74 diseases/traits [scDRS_data_release_092121.score_file_tmsfacs](https://figshare.com/articles/dataset/scDRS_data_release_092121_score_file_tmsfacs/16664077) (36.3 GB).  
@@ -34,9 +38,11 @@ Codes are at `./job.reproduce`
 ## Data curation: `job.curate_data`
 Curate information for 74 diseases/traits: 
 - Curate information for the 74 diseases: `job.curate_data/get_trait_list.ipynb`
+- Curate information for the 74 diseases (rv1): `job.curate_data/get_trait_list.rv1.ipynb`
 
 Curate gene set (.gs) files:
 - .gs file for 74 diseases: `job.curate_data/curate_gs_file.ipynb`
+- .gs file for 74 diseases (rv1): `job.curate_data/curate_gs_file.rv1.ipynb`
 - .gs file for T cell signatures: `job.curate_data/curate_gs.tcell_signature.ipynb`
 - .gs file for ploidy signatures: `job.curate_data/curate_ploidy_gs.ipynb`
 - .gs file for zonation signatures: `job.curate_data/curate_zonation_gs.ipynb`
@@ -49,6 +55,9 @@ Curate scRNA-seq data sets:
 - Aizarani et al.: `job.curate_data/curate_aizarani_liver_atlas_data.ipynb`
 - Halpern & Shenhav et al.: `job.curate_data/curate_halpern_mouse_liver_data.ipynb`
 - Richter & Deligiannis et al.: `job.curate_data/curate_richter_hepatocyte_data.ipynb`
+- Compute gene-level statistics: `compute_data_stats.py` and `compute_data_stats.sh`
+- Get meta information of data sets: `get_data_info.ipynb`
+- Get meta information of data sets: `get_data_info.rv1.ipynb`
 
 
 ## Compute scDRS scores: `job.compute_score`
