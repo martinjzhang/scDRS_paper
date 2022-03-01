@@ -62,8 +62,8 @@ Curate scRNA-seq data sets:
 
 ## Compute scDRS scores: `job.compute_score`
 - TMS FACS + 74 diseases: `job.compute_score/compute_score.tms_facs_with_cov.magma_10kb_1000.sh`
-- TMS FACS + T cell signatures: `job.compute_score/compute_score.tms_facs_with_cov.tcell_sig.sh`
-- TMS FACS + metabolic: `job.compute_score/compute_score.tms_facs_with_cov.hep_metabolic.sh`
+- TMS FACS + T cell signatures (using scDRS scripts instead of CLI): `job.compute_score/compute_score.tms_facs_with_cov.tcell_sig.sh`
+- TMS FACS + metabolic (using scDRS scripts instead of CLI): `job.compute_score/compute_score.tms_facs_with_cov.hep_metabolic.sh`
 - TMS droplet + 74 diseases: `job.compute_score/compute_score.tms_droplet_with_cov.magma_10kb_1000.sh`
 - TS FACS + 74 diseases: `job.compute_score/compute_score.ts_facs_with_cov.magma_10kb_1000.sh`
 
