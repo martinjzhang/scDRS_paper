@@ -74,20 +74,30 @@ Make schematic figures.
 ## Simulation (Fig. 2): `job.simulation`
 Data generation:
 - Generate the TMS FACS 10K subsampled data and null gene sets: `job.simulation/generate_null_simulation_data.ipynb`
+- Generate the TMS FACS 10K subsampled data and null gene sets (rv1): `job.simulation/generate_null_simulation_data.rv1.ipynb`
+- Generate location-matched gene sets and make figures (rv1): `job.simulation/simulation.other_null.ipynb`
 - Generate causal gene sets and perturbation configurations: `job.simulation/generate_causal_simulation_data.ipynb`
+- Generate 20 reps of subsampled TMS FACS 10K data (rv1): `job.simulation/generate_subsampled_tms_data.rv1.ipynb`
 
 Compute results: 
 - Compute scDRS scores for null simulations: `job.simulation/compute_simu_score.sh`
+- Compute scDRS scores for null simulations (rv1): `job.simulation/compute_simu_score.rv1.sh`
+- Compute scDRS scores for null simulations using the `-adj-prop` option (rv1): `job.simulation/compute_simu_score.adj_prop.rv1.sh`
 - Compute Seurat scores for null simulations: `job.simulation/compute_simu_score_scanpy.sh`
+- Compute Seurat scores for null simulations (rv1): `job.simulation/compute_simu_score_scanpy.rv1.sh`
 - Compute Vision scores for null simulations: `job.simulation/compute_simu_score_vision.sh`
+- Compute Vision scores for null simulations (rv1): `job.simulation/compute_simu_score_vision.rv1.sh`
 - Compute VAM scores for null simulations: `job.simulation/call_R_vam.sh`
+- Compute VAM scores for null simulations (rv1): `job.simulation/call_R_vam.rv1.sh`
 - Compute scores (scDRS/Seurat/Vision) for causal simulations (500 random causal cells): `job.simulation/compute_perturb_simu_score.sh`
 - Compute scores (scDRS/Seurat/Vision) for causal simulations (B cells causal): `job.simulation/compute_perturb_simu_score_Bcell.sh`
 
 Make figures:
 - Make figures for null simulations: `job.simulation/make_figure.null_simulation.ipynb`
+- Make figures for null simulations (rv1): `job.simulation/make_figure.null_simulation.rv1.ipynb`
 - Make figures for causal simulations (500 random causal cells): `job.simulation/make_figure.causal_simulation.ipynb`
 - Make figures for causal simulations (B cells causal): `job.simulation/make_figure.causal_simulation_Bcell.ipynb`
+- Make figures for subsampled UKB (rv1): `job.simulation/make_figure.UKB_subsample.rv1.ipynb`
 
 
 ## Cell type-level results (Fig. 3): `job.celltype_association`
