@@ -111,9 +111,15 @@ Make figures:
 ## T cell example (Fig. 4): `job.case_tcell`
 - Reprocess TMS T cells and assign effectorness gradients: `job.case_tcell/s1_reprocess_tms_tcell.ipynb`
 - Main analysis: `job.case_tcell/s3_analysis_tcell.ipynb`
+- Main analysis (rv1): `job.case_tcell/s3_analysis_tcell.rv1.ipynb`
 - Replication in Cano-Gamez & Soskic et al. and Nathan et al. data: `job.case_tcell/s4_analysis_tcell.replication.ipynb`
+- Replication in Cano-Gamez & Soskic et al. and Nathan et al. data (rv1): `job.case_tcell/s4_analysis_tcell.replication.rv1.ipynb`
 - Cluster-level LDSC-SEG analysis: `job.case_tcell/s5_compare_ldsc_cluster_4res.ipynb`
+- Cluster-level LDSC-SEG analysis (rv1): `job.case_tcell/s5_compare_ldsc_cluster_4res.rv1.ipynb`
 - Disease gene prioritization: `job.case_tcell/s6_gene_prioritization.ipynb`
+- Disease gene prioritization (rv1): `job.case_tcell/s6_gene_prioritization.rv1.ipynb`
+- Gene set overlap and disease score correlation between traits (rv1): `job.case_tcell/s7_contrast_traits.rv1.ipynb`
+- Automatic annotation using ProjecTILE in R (rv1): `job.case_tcell/s8_map_tms_tcell_ProjecTILs.rv1.ipynb`
 
 ## Neuron example (Fig. 5AB):  `job.ca1_pyramidal`
 - Main analysis (Fig. 5AB): `job.ca1_pyramidal/main_figure.ipynb`
@@ -124,3 +130,4 @@ Make figures:
 ## Hepatocyte example (Fig. 5CD): `job.case_hepatocyte`
 - Reprocess TMS hepatocytes: `job.case_hepatocyte/s1_reprocess_tms_hep.ipynb`
 - Main analysis: `job.case_hepatocyte/s3_analysis_hep.ipynb`
+- Main analysis (rv1): `job.case_hepatocyte/s3_analysis_hep.rv1.ipynb`
