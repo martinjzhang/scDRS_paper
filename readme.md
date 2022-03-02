@@ -4,34 +4,36 @@
 
 # Subset of code and data to reproduce main results of the paper
 
-Download the main data [scDRS_data_release_092121](https://figshare.com/articles/dataset/scDRS_data_release_092121/16664080) (3.6 GB) and scDRS score files for TMS FACS + 74 diseases/traits [scDRS_data_release_092121.score_file_tmsfacs](https://figshare.com/articles/dataset/scDRS_data_release_092121_score_file_tmsfacs/16664077) (36.3 GB).  
+Codes are at `./job.reproduce`. To run the code, set `DATA_PATH` (if in the code) to your local folder of the main data `scDRS_data_release_XXXXXX` and set `SCORE_FILE_PATH` (if in the code) to your local folder of the scDRS score files `scDRS_data_release_XXXXXX.score_file_tmsfacs`.
+- Revision 1 (rv1): Main data [scDRS_data_release_030122](XX) (XX GB). scDRS score files for TMS FACS + 74 diseases/traits [scDRS_data_release_030122.score_file_tmsfacs](XX) (XX GB).
+- Initial submission: Main data [scDRS_data_release_092121](https://figshare.com/articles/dataset/scDRS_data_release_092121/16664080) (3.6 GB). scDRS score files for TMS FACS + 74 diseases/traits [scDRS_data_release_092121.score_file_tmsfacs](https://figshare.com/articles/dataset/scDRS_data_release_092121_score_file_tmsfacs/16664077) (36.3 GB).
 
-Codes are at `./job.reproduce`
 
-### Compute scDRS scores for TMS FACS + 74 diseases/traits
-- Score files were already included in `scDRS_data_release_092121.score_file_tmsfacs`.
-- You can also compute them yourself by the bash sript `reproduce_compute_score.tms_facs_with_cov.magma_10kb_1000.sh`
-- Set `DATA_PATH` to your local folder of `scDRS_data_release_092121` (containing TMS FACS data and .gs files) and run the script.
+**Compute scDRS scores for TMS FACS + 74 diseases/traits**
+- Revision 1 (rv1): Score files are in `scDRS_data_release_030122.score_file_tmsfacs`. Compute them yourself using `reproduce_compute_score.tms_facs_with_cov.magma_10kb_1000.rv1.sh`
+- Initial submission: Score files were included in `scDRS_data_release_092121.score_file_tmsfacs`. Compute them yourself using `reproduce_compute_score.tms_facs_with_cov.magma_10kb_1000.sh`
 
-### Cell type-level analysis (Fig. 3): 
-- You can reproduce the results using `reproduce_celltype.ipynb`
-- Set `DATA_PATH` to your local folder of `scDRS_data_release_092121` and run the notebook.
+**Cell type-level analysis (Fig. 3)**
+- Revision 1 (rv1): 
+- Initial submission: `reproduce_celltype.ipynb`.
 
-### T cell analysis (Fig. 4A-C):
-- You can reproduce the results using `reproduce_tcell.ipynb`
-- Set `DATA_PATH` to your local folder of `scDRS_data_release_092121`, set `SCORE_FILE_PATH` to your local folder of `scDRS_data_release_092121.score_file_tmsfacs` and run the notebook.
+**T cell analysis (Fig. 4)**
+- Revision 1 (rv1) (Fig. 4A-E): `reproduce_tcell.rv1.ipynb`.
+- Initial submission (Fig. 4A-C): `reproduce_tcell.ipynb`.
 
-### T cell gene prioritization (Fig. 4D): 
-- You can reproduce the results using `reproduce_tcell_gene.ipynb`
-- Set `DATA_PATH` to your local folder of `scDRS_data_release_092121`, set `SCORE_FILE_PATH` to your local folder of `scDRS_data_release_092121.score_file_tmsfacs` and run the notebook.
+**T cell gene prioritization (Fig. 4)**
+- Revision 1 (rv1) (Fig. 4F): `reproduce_tcell_gene.rv1.ipynb`.
+- Initial submission (Fig. 4D): `reproduce_tcell_gene.ipynb`.
 
-### Neuron analysis (Fig. 5A,B):
-- You can reproduce the results using `reproduce_neuron.ipynb`
-- Set `DATA_PATH` to your local folder of `scDRS_data_release_092121` and run the notebook.
+**Neuron analysis (Fig. 5A,B)**
+- Revision 1 (rv1): 
+- Initial submission: `reproduce_neuron.ipynb`.
 
-### Hepatocyte analysis (Fig. 5C,D): 
-- You can reproduce the results using `reproduce_neuron.ipynb` 
-- Set `DATA_PATH` to your local folder of `scDRS_data_release_092121`, set `SCORE_FILE_PATH` to your local folder of `scDRS_data_release_092121.score_file_tmsfacs` and run the notebook.
+**Hepatocyte analysis (Fig. 5C,D)**
+- Revision 1 (rv1): `reproduce_hep.rv1.ipynb`.
+- Initial submission: `reproduce_hep.ipynb`.
+
+
 
 # Complete code
 
