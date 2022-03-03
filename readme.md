@@ -14,7 +14,7 @@ Codes are at `./job.reproduce`. To run the code, set `DATA_PATH` (if in the code
 - Initial submission: Score files were included in `scDRS_data_release_092121.score_file_tmsfacs`. Compute them yourself using `reproduce_compute_score.tms_facs_with_cov.magma_10kb_1000.sh`
 
 **Cell type-level analysis (Fig. 3)**
-- Revision 1 (rv1): 
+- Revision 1 (rv1): `reproduce_celltype.rv1.ipynb`.
 - Initial submission: `reproduce_celltype.ipynb`.
 
 **T cell analysis (Fig. 4)**
@@ -26,7 +26,7 @@ Codes are at `./job.reproduce`. To run the code, set `DATA_PATH` (if in the code
 - Initial submission (Fig. 4D): `reproduce_tcell_gene.ipynb`.
 
 **Neuron analysis (Fig. 5A,B)**
-- Revision 1 (rv1): 
+- Revision 1 (rv1): `reproduce_neuron.rv1.ipynb`.
 - Initial submission: `reproduce_neuron.ipynb`.
 
 **Hepatocyte analysis (Fig. 5C,D)**
