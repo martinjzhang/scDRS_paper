@@ -109,7 +109,7 @@ Make figures:
 - Relationship between scDRS power and heritability, polygenicity: `job.celltype_association/optim_param.ipynb`
 - Comparison of cell-type association to LDSC-SEG: `job.celltype_association/ldsc_compare.ipynb`
 - Effects of gene sets for scDRS power: `job.celltype_association/vary_geneset.ipynb`
-- Evaluation of alternative versions of scDRS using control traits and cell types (rv1): `job.continuous_score/` 
+- Evaluation of alternative versions of scDRS using control traits and cell types (rv1): `job.continuous_score/` (see the directory for more details)
 
 ## T cell example (Fig. 4): `job.case_tcell`
 - Reprocess TMS T cells and assign effectorness gradients: `job.case_tcell/s1_reprocess_tms_tcell.ipynb`
