@@ -5,7 +5,7 @@ Also check out the scDRS [software](https://github.com/martinjzhang/scDRS) and [
 
 ### Versions
 - [revision 1 (rv1)](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2): current version.
-- [Initial submission](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v1): see [readme.md](https://github.com/martinjzhang/scDRS_paper/blob/master/readme_initial_sub.md) file.
+- [Initial submission](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v1): see [readme_inital_sub.md](https://github.com/martinjzhang/scDRS_paper/blob/master/readme_initial_sub.md) file.
 
 # Subset of code and data to reproduce main results of the paper
 
@@ -110,9 +110,11 @@ Make figures:
 ## Cell type-level results (Fig. 3): `job.celltype_association`
 - Summary of the cell-type association results: `job.celltype_association/summary_ct.ipynb`
 - Main analysis: `job.celltype_association/main_figure.ipynb`
+- Main analysis (rv1): `job.celltype_association/main_figure.rv1.ipynb`
 - Comparison of cell-type association for three atlas datasets: TMS FACS, TMS droplet, TS FACS: `job.celltype_association/atlas_compare.ipynb`
 - Relationship between scDRS power and heritability, polygenicity: `job.celltype_association/optim_param.ipynb`
 - Comparison of cell-type association to LDSC-SEG: `job.celltype_association/ldsc_compare.ipynb`
+- Comparison of cell-type association to alternative methods (rv1): `job.celltype_association/methods_compare.rv1.ipynb`
 - Effects of gene sets for scDRS power: `job.celltype_association/vary_geneset.ipynb`
 - Evaluation of alternative versions of scDRS using control traits and cell types (rv1): `job.continuous_score/` (see the directory for more details)
 
@@ -131,6 +133,7 @@ Make figures:
 
 ## Neuron example (Fig. 5AB):  `job.ca1_pyramidal`
 - Main analysis (Fig. 5AB): `job.ca1_pyramidal/main_figure.ipynb`
+- Main analysis (Fig. 5AB) (rv1): `job.ca1_pyramidal/main_figure.rv1.ipynb`
 - Analysis of neurons in TMS FACS dataset: `job.ca1_pyramidal/tms.ipynb` 
 - Analysis of Zeisel et al. 2015 dataset: `job.ca1_pyramidal/zeisel.ipynb`
 - Verification of the inferred spatial coordinates: `job.ca1_pyramidal/spatial_verify.ipynb`
