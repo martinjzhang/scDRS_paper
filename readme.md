@@ -3,7 +3,7 @@ Code and data for the paper Zhang*, Hou*, et al. [Polygenic enrichment distingui
 Also check out the scDRS [software](https://github.com/martinjzhang/scDRS) and [documentation](https://martinjzhang.github.io/scDRS/). 
 
 
-### Versions
+### Paper versions
 - [revision 1 (rv1)](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2): current version.
 - [Initial submission](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v1): see [readme.md](https://github.com/martinjzhang/scDRS_paper/blob/master/readme_initial_sub.md) file.
 
