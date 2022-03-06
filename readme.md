@@ -1,6 +1,11 @@
-# Versions
-- Current version: revision 1 (rv1). 
-- Initial submission: see [readme.md](https://github.com/martinjzhang/scDRS_paper/blob/master/readme_initial_sub.md) file.
+Code and data for the paper Zhang*, Hou*, et al. [Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2).
+
+Also check out the scDRS [software](https://github.com/martinjzhang/scDRS) and [documentation](https://martinjzhang.github.io/scDRS/). 
+
+
+### Versions
+- [revision 1 (rv1)](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2): current version.
+- [Initial submission](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v1): see [readme.md](https://github.com/martinjzhang/scDRS_paper/blob/master/readme_initial_sub.md) file.
 
 # Subset of code and data to reproduce main results of the paper
 
