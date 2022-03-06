@@ -1,7 +1,6 @@
-Code and data for the paper Zhang*, Hou*, et al. [Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2).
+Data for the paper Zhang*, Hou*, et al. [Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2).
 
-Also check out the scDRS [software](https://github.com/martinjzhang/scDRS) and [documentation](https://martinjzhang.github.io/scDRS/). 
-
+Also see scDRS [software](https://github.com/martinjzhang/scDRS) and [documentation](https://martinjzhang.github.io/scDRS/). 
 
 ### Versions
 - [revision 1 (rv1)](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2): current version.
@@ -9,7 +8,7 @@ Also check out the scDRS [software](https://github.com/martinjzhang/scDRS) and [
 
 # Subset of code and data to reproduce main results of the paper
 
-Codes are at `./job.reproduce`. To run the code, set `DATA_PATH` (if in the code) to your local folder of the main data `scDRS_data_release_XXXXXX` and set `SCORE_FILE_PATH` (if in the code) to your local folder of the scDRS score files `scDRS_data_release_XXXXXX.score_file_tmsfacs`.
+Codes are at `./job.reproduce`. To run the code, set `DATA_PATH` (if in the code) to your local folder of the main data `scDRS_data_release_{RELEASE_DATE}` and set `SCORE_FILE_PATH` (if in the code) to your local folder of the scDRS score files `scDRS_data_release_{RELEASE_DATE}.score_file_tmsfacs`.
 - Revision 1 (rv1): Main data [scDRS_data_release_030122](https://figshare.com/articles/dataset/scDRS_data_release_030122/19312583) (3.8 GB). scDRS score files for TMS FACS + 74 diseases/traits [scDRS_data_release_030122.score_file_tmsfacs](https://figshare.com/articles/dataset/scDRS_data_release_030122_score_file_tmsfacs/19312607) (36.8 GB).
 - Initial submission: Main data [scDRS_data_release_092121](https://figshare.com/articles/dataset/scDRS_data_release_092121/16664080) (3.6 GB). scDRS score files for TMS FACS + 74 diseases/traits [scDRS_data_release_092121.score_file_tmsfacs](https://figshare.com/articles/dataset/scDRS_data_release_092121_score_file_tmsfacs/16664077) (36.3 GB).
 
@@ -37,7 +36,6 @@ Codes are at `./job.reproduce`. To run the code, set `DATA_PATH` (if in the code
 **Hepatocyte analysis (Fig. 5C,D)**
 - Revision 1 (rv1): `reproduce_hep.rv1.ipynb`.
 - Initial submission: `reproduce_hep.ipynb`.
-
 
 
 # Complete code
