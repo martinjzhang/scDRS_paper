@@ -1,4 +1,4 @@
-Data for the paper Zhang*, Hou*, et al. [Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2).
+This repository contains data and code for the paper Zhang*, Hou*, et al. [Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2).
 
 Also see scDRS [software](https://github.com/martinjzhang/scDRS) and [documentation](https://martinjzhang.github.io/scDRS/). 
 
