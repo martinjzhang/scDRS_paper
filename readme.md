@@ -110,6 +110,7 @@ Make figures:
 - Main analysis: `job.celltype_association/main_figure.ipynb`
 - Main analysis (rv1): `job.celltype_association/main_figure.rv1.ipynb`
 - Comparison of cell-type association for three atlas datasets: TMS FACS, TMS droplet, TS FACS: `job.celltype_association/atlas_compare.ipynb`
+- Comparison of cell-type association for three atlas datasets: TMS FACS, TMS droplet, TS FACS (rv1): `job.celltype_association/atlas_compare.rv1.ipynb`
 - Relationship between scDRS power and heritability, polygenicity: `job.celltype_association/optim_param.ipynb`
 - Comparison of cell-type association to LDSC-SEG: `job.celltype_association/ldsc_compare.ipynb`
 - Comparison of cell-type association to alternative methods (rv1): `job.celltype_association/methods_compare.rv1.ipynb`
@@ -132,8 +133,10 @@ Make figures:
 ## Neuron example (Fig. 5AB):  `job.ca1_pyramidal`
 - Main analysis (Fig. 5AB): `job.ca1_pyramidal/main_figure.ipynb`
 - Main analysis (Fig. 5AB) (rv1): `job.ca1_pyramidal/main_figure.rv1.ipynb`
-- Analysis of neurons in TMS FACS dataset: `job.ca1_pyramidal/tms.ipynb` 
+- Analysis of neurons in TMS FACS dataset: `job.ca1_pyramidal/tms.ipynb`
+- Analysis of neurons in TMS FACS dataset (rv1): `job.ca1_pyramidal/tms.rv1.ipynb` 
 - Analysis of Zeisel et al. 2015 dataset: `job.ca1_pyramidal/zeisel.ipynb`
+- Analysis of Zeisel et al. 2015 dataset (rv1): `job.ca1_pyramidal/zeisel.rv1.ipynb`
 - Verification of the inferred spatial coordinates: `job.ca1_pyramidal/spatial_verify.ipynb`
 
 ## Hepatocyte example (Fig. 5CD): `job.case_hepatocyte`
