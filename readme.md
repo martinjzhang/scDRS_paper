@@ -115,6 +115,7 @@ Make figures:
 - Comparison of cell-type association to LDSC-SEG: `job.celltype_association/ldsc_compare.ipynb`
 - Comparison of cell-type association to alternative methods (rv1): `job.celltype_association/methods_compare.rv1.ipynb`
 - Effects of gene sets for scDRS power: `job.celltype_association/vary_geneset.ipynb`
+- Examples of within-cell-type heterogeneity (including correlated genes and covariates): `job.celltype_association/hetero_examples.rv_final.ipynb`:  
 - Evaluation of alternative versions of scDRS using control traits and cell types (rv1): `job.continuous_score/` (see the directory for more details)
 
 ## T cell example (Fig. 4): `job.case_tcell`
