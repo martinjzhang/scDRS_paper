@@ -3,8 +3,8 @@ This repository contains data and code for the paper Zhang*, Hou*, et al. [Polyg
 Also see scDRS [software](https://github.com/martinjzhang/scDRS) and [documentation](https://martinjzhang.github.io/scDRS/). 
 
 ### Versions
-- [revision 1 (rv1)](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2): current version.
-- [Initial submission](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v1): see [readme_inital_sub.md](https://github.com/martinjzhang/scDRS_paper/blob/master/readme_initial_sub.md) file.
+- [revision 1 (rv1)](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2): current version (using scdrs v1.0.0).
+- [Initial submission](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v1): see [readme_inital_sub.md](https://github.com/martinjzhang/scDRS_paper/blob/master/readme_initial_sub.md) file (using scdrs v0.1).
 
 # Subset of code and data to reproduce main results of the paper
 
