@@ -9,7 +9,7 @@ Download the Supp. Tables to the current folder and name it as `supp_tables.xlsx
 - `summary_ct.ipynb`: summary of the cell-type association results.
 - `main_figure.ipynb`: notebook to replicate Fig. 3
 - `atlas_compare.ipynb`: comparison of cell-type association for three atlas datasets: TMS FACS, TMS droplet, TS FACS.
-- `optim_param.ipynb`: relationship between scDRS power and heritability, polygenicity.
+- `optimal_param.ipynb`: relationship between scDRS power and heritability, polygenicity.
 - `ldsc_compare.ipynb`: comparison of cell-type association to LDSC-SEG.
 - `vary_geneset.ipynb`: effects of gene sets for scDRS power.
 - `hetero_examples.rv_final.ipynb`: heterogeneity examples, and correlated genes and covariates. 
