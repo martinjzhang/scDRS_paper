@@ -83,6 +83,7 @@ Data generation:
 - Generate the TMS FACS 10K subsampled data and null gene sets: `job.simulation/generate_null_simulation_data.ipynb`
 - Generate the TMS FACS 10K subsampled data and null gene sets (rv1): `job.simulation/generate_null_simulation_data.rv1.ipynb`
 - Generate location-matched gene sets and make figures (rv1): `job.simulation/simulation.other_null.ipynb`
+- Generate location-matched gene sets and make figures (rv_final): `job.simulation/simulation.other_null.rv_final.ipynb`
 - Generate causal gene sets and perturbation configurations: `job.simulation/generate_causal_simulation_data.ipynb`
 - Generate 20 reps of subsampled TMS FACS 10K data (rv1): `job.simulation/generate_subsampled_tms_data.rv1.ipynb`
 
@@ -117,11 +118,10 @@ Make figures:
 - Main analysis (rv1): `job.celltype_association/main_figure.rv1.ipynb`
 - Comparison of cell-type association for three atlas datasets: TMS FACS, TMS droplet, TS FACS: `job.celltype_association/atlas_compare.ipynb`
 - Comparison of cell-type association for three atlas datasets: TMS FACS, TMS droplet, TS FACS (rv1): `job.celltype_association/atlas_compare.rv1.ipynb`
-- Relationship between scDRS power and heritability, polygenicity: `job.celltype_association/optim_param.ipynb`
+- Relationship between scDRS power and heritability, polygenicity: `job.celltype_association/optimal_param.ipynb`
 - Comparison of cell-type association to LDSC-SEG: `job.celltype_association/ldsc_compare.ipynb`
 - Comparison of cell-type association to alternative methods (rv1): `job.celltype_association/methods_compare.rv1.ipynb`
 - Effects of gene sets for scDRS power: `job.celltype_association/vary_geneset.ipynb`
-- Examples of within-cell-type heterogeneity (including correlated genes and covariates): `job.celltype_association/hetero_examples.rv_final.ipynb`:  
 - Examples of within-cell-type heterogeneity (including correlated genes and covariates) (rv_final): `job.celltype_association/hetero_examples.rv_final.ipynb`:  
 - Evaluation of alternative versions of scDRS using control traits and cell types (rv1): `job.continuous_score/` (see the directory for more details)
 
