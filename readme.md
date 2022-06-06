@@ -3,38 +3,39 @@ This repository contains data and code for the paper Zhang*, Hou*, et al. [Polyg
 Also see scDRS [software](https://github.com/martinjzhang/scDRS) and [documentation](https://martinjzhang.github.io/scDRS/). 
 
 ### Versions
-- [revision 1 (rv1)](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2): current version (using scdrs v1.0.0).
-- [Initial submission](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v1): see [readme_inital_sub.md](https://github.com/martinjzhang/scDRS_paper/blob/master/readme_initial_sub.md) file (using scdrs v0.1).
+- Final version (rv_final): current version (using `scdrs v1.0.0`).
+- [Revision 1 (rv1)](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v2): revision 1 (using `scdrs v1.0.0`).
+- [Initial submission](https://www.biorxiv.org/content/10.1101/2021.09.24.461597v1): see [readme_inital_sub.md](https://github.com/martinjzhang/scDRS_paper/blob/master/readme_initial_sub.md) file (using `scdrs v0.1`).
 
 # Subset of code and data to reproduce main results of the paper
 
 Codes are at `./job.reproduce`. To run the code, set `DATA_PATH` (if in the code) to your local folder of the main data `scDRS_data_release_{RELEASE_DATE}` and set `SCORE_FILE_PATH` (if in the code) to your local folder of the scDRS score files `scDRS_data_release_{RELEASE_DATE}.score_file_tmsfacs`.
-- Revision 1 (rv1): Main data [scDRS_data_release_030122](https://figshare.com/articles/dataset/scDRS_data_release_030122/19312583) (3.8 GB). scDRS score files for TMS FACS + 74 diseases/traits [scDRS_data_release_030122.score_file_tmsfacs](https://figshare.com/articles/dataset/scDRS_data_release_030122_score_file_tmsfacs/19312607) (36.8 GB).
+- Final version (rv_final) and revision 1 (rv1): Main data [scDRS_data_release_030122](https://figshare.com/articles/dataset/scDRS_data_release_030122/19312583) (3.8 GB). scDRS score files for TMS FACS + 74 diseases/traits [scDRS_data_release_030122.score_file_tmsfacs](https://figshare.com/articles/dataset/scDRS_data_release_030122_score_file_tmsfacs/19312607) (36.8 GB).
 - Initial submission: Main data [scDRS_data_release_092121](https://figshare.com/articles/dataset/scDRS_data_release_092121/16664080) (3.6 GB). scDRS score files for TMS FACS + 74 diseases/traits [scDRS_data_release_092121.score_file_tmsfacs](https://figshare.com/articles/dataset/scDRS_data_release_092121_score_file_tmsfacs/16664077) (36.3 GB).
 
 
 **Compute scDRS scores for TMS FACS + 74 diseases/traits**
-- Revision 1 (rv1): Score files are in `scDRS_data_release_030122.score_file_tmsfacs`. Compute them yourself using `reproduce_compute_score.tms_facs_with_cov.magma_10kb_1000.rv1.sh`
+- Final version (rv_final) and revision 1 (rv1): Score files are in `scDRS_data_release_030122.score_file_tmsfacs`. Compute them yourself using `reproduce_compute_score.tms_facs_with_cov.magma_10kb_1000.rv1.sh`
 - Initial submission: Score files were included in `scDRS_data_release_092121.score_file_tmsfacs`. Compute them yourself using `reproduce_compute_score.tms_facs_with_cov.magma_10kb_1000.sh`
 
 **Cell type-level analysis (Fig. 3)**
-- Revision 1 (rv1): `reproduce_celltype.rv1.ipynb`.
+- Final version (rv_final) and revision 1 (rv1): `reproduce_celltype.rv1.ipynb`.
 - Initial submission: `reproduce_celltype.ipynb`.
 
 **T cell analysis (Fig. 4)**
-- Revision 1 (rv1) (Fig. 4A-E): `reproduce_tcell.rv1.ipynb`.
+- Final version (rv_final) and revision 1 (rv1) (Fig. 4A-E): `reproduce_tcell.rv1.ipynb`.
 - Initial submission (Fig. 4A-C): `reproduce_tcell.ipynb`.
 
 **T cell gene prioritization (Fig. 4)**
-- Revision 1 (rv1) (Fig. 4F): `reproduce_tcell_gene.rv1.ipynb`.
+- Final version (rv_final) and revision 1 (rv1) (Fig. 4F): `reproduce_tcell_gene.rv1.ipynb`.
 - Initial submission (Fig. 4D): `reproduce_tcell_gene.ipynb`.
 
 **Neuron analysis (Fig. 5A,B)**
-- Revision 1 (rv1): `reproduce_neuron.rv1.ipynb`.
+- Final version (rv_final) and revision 1 (rv1): `reproduce_neuron.rv1.ipynb`.
 - Initial submission: `reproduce_neuron.ipynb`.
 
 **Hepatocyte analysis (Fig. 5C,D)**
-- Revision 1 (rv1): `reproduce_hep.rv1.ipynb`.
+- Final version (rv_final) and revision 1 (rv1): `reproduce_hep.rv1.ipynb`.
 - Initial submission: `reproduce_hep.ipynb`.
 
 
@@ -62,7 +63,8 @@ Curate scRNA-seq data sets:
 - Richter & Deligiannis et al.: `job.curate_data/curate_richter_hepatocyte_data.ipynb`
 - Compute gene-level statistics: `compute_data_stats.py` and `compute_data_stats.sh`
 - Get meta information of data sets: `get_data_info.ipynb`
-- Get meta information of data sets: `get_data_info.rv1.ipynb`
+- Get meta information of data sets (rv1): `get_data_info.rv1.ipynb`
+- Get meta information of data sets (rv_final): `get_data_info.rv_final.ipynb`
 
 
 ## Compute scDRS scores: `job.compute_score`
@@ -100,9 +102,13 @@ Compute results:
 Make figures:
 - Make figures for null simulations: `job.simulation/make_figure.null_simulation.ipynb`
 - Make figures for null simulations (rv1): `job.simulation/make_figure.null_simulation.rv1.ipynb`
+- Make figures for null simulations (rv_final): `job.simulation/make_figure.null_simulation.rv_final.ipynb`
 - Make figures for causal simulations (500 random causal cells): `job.simulation/make_figure.causal_simulation.ipynb`
+- Make figures for causal simulations (500 random causal cells) (rv_final): `job.simulation/make_figure.causal_simulation.rv_final.ipynb`
 - Make figures for causal simulations (B cells causal): `job.simulation/make_figure.causal_simulation_Bcell.ipynb`
+- Make figures for causal simulations (B cells causal) (rv_final): `job.simulation/make_figure.causal_simulation_Bcell.rv_final.ipynb`
 - Make figures for subsampled UKB (rv1): `job.simulation/make_figure.UKB_subsample.rv1.ipynb`
+- Make figures for subsampled UKB (rv_final): `job.simulation/make_figure.UKB_subsample.rv_final.ipynb`
 
 
 ## Cell type-level results (Fig. 3): `job.celltype_association`
@@ -116,18 +122,22 @@ Make figures:
 - Comparison of cell-type association to alternative methods (rv1): `job.celltype_association/methods_compare.rv1.ipynb`
 - Effects of gene sets for scDRS power: `job.celltype_association/vary_geneset.ipynb`
 - Examples of within-cell-type heterogeneity (including correlated genes and covariates): `job.celltype_association/hetero_examples.rv_final.ipynb`:  
+- Examples of within-cell-type heterogeneity (including correlated genes and covariates) (rv_final): `job.celltype_association/hetero_examples.rv_final.ipynb`:  
 - Evaluation of alternative versions of scDRS using control traits and cell types (rv1): `job.continuous_score/` (see the directory for more details)
 
 ## T cell example (Fig. 4): `job.case_tcell`
 - Reprocess TMS T cells and assign effectorness gradients: `job.case_tcell/s1_reprocess_tms_tcell.ipynb`
 - Main analysis: `job.case_tcell/s3_analysis_tcell.ipynb`
 - Main analysis (rv1): `job.case_tcell/s3_analysis_tcell.rv1.ipynb`
+- Main analysis (rv_final): `job.case_tcell/s3_analysis_tcell.rv_final.ipynb`
 - Replication in Cano-Gamez & Soskic et al. and Nathan et al. data: `job.case_tcell/s4_analysis_tcell.replication.ipynb`
 - Replication in Cano-Gamez & Soskic et al. and Nathan et al. data (rv1): `job.case_tcell/s4_analysis_tcell.replication.rv1.ipynb`
 - Cluster-level LDSC-SEG analysis: `job.case_tcell/s5_compare_ldsc_cluster_4res.ipynb`
 - Cluster-level LDSC-SEG analysis (rv1): `job.case_tcell/s5_compare_ldsc_cluster_4res.rv1.ipynb`
+- Cluster-level LDSC-SEG analysis (rv_final): `job.case_tcell/s5_compare_ldsc_cluster_4res.rv_final.ipynb`
 - Disease gene prioritization: `job.case_tcell/s6_gene_prioritization.ipynb`
 - Disease gene prioritization (rv1): `job.case_tcell/s6_gene_prioritization.rv1.ipynb`
+- Disease gene prioritization (rv_final): `job.case_tcell/s5_compare_ldsc_cluster_4res.rv_final.ipynb`
 - Gene set overlap and disease score correlation between traits (rv1): `job.case_tcell/s7_contrast_traits.rv1.ipynb`
 - Automatic annotation using ProjecTILE in R (rv1): `job.case_tcell/s8_map_tms_tcell_ProjecTILs.rv1.ipynb`
 
@@ -144,3 +154,4 @@ Make figures:
 - Reprocess TMS hepatocytes: `job.case_hepatocyte/s1_reprocess_tms_hep.ipynb`
 - Main analysis: `job.case_hepatocyte/s3_analysis_hep.ipynb`
 - Main analysis (rv1): `job.case_hepatocyte/s3_analysis_hep.rv1.ipynb`
+- Main analysis (rv_final): `job.case_hepatocyte/s3_analysis_hep.rv_final.ipynb`
